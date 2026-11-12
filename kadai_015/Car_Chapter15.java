@@ -13,10 +13,11 @@ public class Car_Chapter15 {
 	     } else {
 	    	 this.speed = 10;
 	     }
+	     
+		System.out.println("ギア" + 1 + "から" + this.gear + "に切り替えました");
     }
     
     public void run() {
-		System.out.println("ギア" + 1 + "から" + this.gear + "に切り替えました");
     	System.out.println("速度は時速" + this.speed + "kmです");
     }
 	
