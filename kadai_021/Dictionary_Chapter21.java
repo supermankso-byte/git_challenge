@@ -17,11 +17,16 @@ public class Dictionary_Chapter21 {
 		english.put("muscat", "マスカット");
 		english.put("cherry", "さくらんぼ");
 	}
-	
-	public String getJapen(String word) {
-		return english.get(word);
+
+	public void englishName(String[] words) {
+	for (String word : words) {
+		if(english.get(word) == null) {
+			System.out.println(word+"は辞書に存在しません");
+		} else {
+			System.out.println(word+"の意味は"+english.get(word));
+		}
+
 	}
-
-
+	}
 }
 
