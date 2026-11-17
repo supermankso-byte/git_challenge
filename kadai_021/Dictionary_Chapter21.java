@@ -19,6 +19,9 @@ public class Dictionary_Chapter21 {
 	}
 	
 	public String getJapen(String word) {
-		return(word+"の意味は"+english.get(word));
+		return english.get(word);
 	}
+
+
 }
+
